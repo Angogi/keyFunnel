@@ -1,7 +1,11 @@
 <template>
 <div >
     <div class="landing"  id="landing">
-       
+        
+        <video  controls autoplay>
+            <source src="/videos/presentacion.mp4" type="video/mp4">
+        </video>
+
 
         <div class="swiper-container-DM">
             <div class="swiper-wrapper">
