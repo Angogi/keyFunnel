@@ -3,7 +3,7 @@
     <div class="landing"  id="landing">
         
         <video  controls autoplay>
-            <source src="/videos/presentacion.mp4" type="video/mp4">
+            <source src="/images/presentacion.mp4" type="video/mp4">
         </video>
 
 
