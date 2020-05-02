@@ -195,6 +195,13 @@ body{
     
 }
 
+.nav-left .images-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav-left .solutions-logo{
     max-width: 55px;
     margin-left: 12px;
@@ -248,8 +255,8 @@ body{
 
     .nav-left .solutions-logo{
         width: 30px;
-        position: absolute;
-        right: 4%;
+        position: relative;
+        right: -110%;
     }
 
     .nav-left h6{
@@ -265,10 +272,6 @@ body{
 
        & .img-logo .angogi-profile{
            display: none;
-       }
-
-       & .solutions-logo{
-           right: 2%;
        }
 
        & .nav-left h6{
