@@ -48,18 +48,7 @@
             </div>
           
         </form>
-
-        <div>
-            <h3>{{name}}</h3>
-            <h3>{{lastname}}</h3>
-            <h3>{{email}}</h3>
-            <h3>{{phone}}</h3>
-            <h3>{{message}}</h3>
-        </div>
-        <strong>Output:</strong>
-            <pre>
-            {{output}}
-            </pre>
+    
     </div>
 </template>
 

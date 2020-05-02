@@ -43,7 +43,8 @@ Vue.component('section-four', require('./components/SectionFourComponent.vue').d
 Vue.component('section-five', require('./components/SectionFiveComponent.vue').default);
 Vue.component('section-six', require('./components/SectionSixComponent.vue').default);
 
-Vue.component('dashboard', require('./components/Dashboard.vue').default);
+Vue.component('free-evaluations', require('./components/FreeEvaluations.vue').default);
+Vue.component('contacts', require('./components/Contacts.vue').default);
 
 Vue.component('webdesign-showcase', require('./components/WebDesignShowcase.vue').default);
 Vue.component('digital-marketing-showcase', require('./components/DigitalMarketingShowcase.vue').default);

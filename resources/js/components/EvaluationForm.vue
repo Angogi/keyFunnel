@@ -76,10 +76,7 @@
             </form>
 
             <div class="alert alert-success hide"></div>
-            <strong>Output:</strong>
-            <pre>
-            {{output}}
-            </pre>
+           
         </div>
                 
     </div>

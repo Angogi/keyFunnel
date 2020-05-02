@@ -25,7 +25,7 @@ Route::get('/evaluation-form', 'FreeEvaluationController@create')->name('evaluat
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/dashboard', 'HomeController@index')->name('home');
 
 
 

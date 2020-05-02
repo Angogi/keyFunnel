@@ -20,6 +20,10 @@
         </div>
     </div>
 </div> -->
-<dashboard></dashboard>
+
+
+
+<free-evaluations></free-evaluations>
+<contacts></contacts>
 
 @endsection

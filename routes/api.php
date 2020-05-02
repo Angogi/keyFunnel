@@ -23,5 +23,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/evaluations', 'FreeEvaluationController@index');
 Route::post('/free-evaluations', 'FreeEvaluationController@store');
 
-// Route::get('/contacts', 'ContactController@index');
+Route::get('/contacts', 'ContactController@index');
 Route::post('/contacts', 'ContactController@store');
