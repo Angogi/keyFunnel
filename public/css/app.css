@@ -100,6 +100,13 @@ body {
   height: 100px;
 }
 
+#arrow-close-menu {
+  position: relative;
+  top: -8px;
+  left: 94px;
+  font-size: x-large;
+}
+
 .navScroll {
   background: linear-gradient(to right, #000d5b, #01e5ee) !important;
   height: 50px !important;

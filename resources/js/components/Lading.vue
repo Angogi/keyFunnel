@@ -1,12 +1,13 @@
 <template>
 <div >
     <div class="landing"  id="landing">
+
+        <iframe src="https://www.youtube.com/embed/GfZGUa1LLXg" 
+            frameborder="0" allow="accelerometer; autoplay; 
+            encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
         
-        <video  controls autoplay>
-            <source src="/images/presentacion.mp4" type="video/mp4">
-        </video>
-
-
         <div class="swiper-container-DM">
             <div class="swiper-wrapper">
             
@@ -158,8 +159,9 @@ li{
 
 }
 
-video{
+iframe{
    width: 80%;
+   height: 450px;
    margin: 50px 0;
 }
 
@@ -314,8 +316,9 @@ video{
         margin-top: 0px;
    }
 
-   video{
+   iframe{
        width: 300px;
+       height: 225px;
        
    }
 

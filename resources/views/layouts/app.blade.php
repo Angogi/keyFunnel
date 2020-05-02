@@ -60,16 +60,16 @@
             <div class="nav-list" id="navList">
                 <ul>
                     <li class="list-nav">
-                        <a  href="#home">Home</a>
+                        <a  href="/#home">Home</a>
                     </li>
                     <li class="list-nav">
-                        <a href="#about">About</a>
+                        <a href="/#about">About</a>
                     </li>
                     <li class="list-nav">
-                        <a href="#services">Services</a>
+                        <a href="/#services">Services</a>
                     </li>
                     <li class="list-nav">
-                        <a href="#contact">Contact</a>
+                        <a href="/#contact">Contact</a>
                     </li>
                 </ul>
                 <ul>
@@ -89,6 +89,7 @@
                         </a>
                     </li>
                 </ul>
+                <i id="arrow-close-menu" class="far fa-arrow-alt-circle-left"></i>
             </div> 
         
          

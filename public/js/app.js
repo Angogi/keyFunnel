@@ -2346,6 +2346,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     var swiper = new Swiper('.swiper-container-DM', {
@@ -48192,7 +48195,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\np[data-v-815456c4]{\r\n  \r\n  font-size: 18px;\n}\nul[data-v-815456c4]{ \r\n    \r\n    list-style: none;\n}\nli[data-v-815456c4]{\r\n    margin: 10px;\n}\n.landing[data-v-815456c4]{\r\n    display: flex;\r\n    position: relative;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    width: 100%;\r\n    background: linear-gradient(to right, #000d5b, #01e5ee);\r\n    height: auto;\r\n    margin-top:80px;\n}\nvideo[data-v-815456c4]{\r\n   width: 80%;\r\n   margin: 50px 0;\n}\n.landing .check-list-dm[data-v-815456c4]{\r\n    border: 2px solid #01e5ee;\r\n    border-right-style:none ;\r\n    box-shadow:-8px 7px 5px 0px #003;\r\n    border-radius: 20px 0px 0px 20px;\r\n    color:#fff;\r\n    display: flex;\r\n    flex-direction: column;\r\n    padding: 20px;\r\n    height: 80vh;\r\n    width: 25%;\r\n    font-size: 22px;\n}\n.landing .check-list-dm img[data-v-815456c4]{\r\n    width: 20px;\r\n    margin-right: 10px;\n}\n.swiper-container-DM[data-v-815456c4] {\r\n    display: flex;\r\n    width: 300px;\r\n    height: 80vh;\n}\n.swiper-slide[data-v-815456c4] {\r\n    display:grid;\r\n    grid-template-columns: 300px;\r\n    grid-template-rows: 32vh 32vh 10vh;\r\n    grid-template-areas: \"image\" \"text\" \"stats\";\r\n    border-radius: 18px;\r\n    background:white;\r\n    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);\r\n    text-align: center;\r\n    background-position: center;\r\n    background-size: cover;\n}\n.swiper-image[data-v-815456c4]{\r\n    grid-area: image;\r\n    border-radius: 15px;\r\n    background-size: contain;\r\n    background-repeat: no-repeat;\r\n    margin: 5px 10px;\n}\n.swiper-image img[data-v-815456c4]{\r\n    margin-top: 15px;\r\n    width: 70%;\r\n    height: 90%;\n}\n.swiper-text[data-v-815456c4]{\r\n    grid-area: text;\r\n    color: #003;\r\n    font-weight: bolder;\n}\n.swiper-text p[data-v-815456c4]{\r\n    \r\n    font-size: 18px;\r\n    font-weight: 300px;\n}\n.swiper-text h5[data-v-815456c4]{\r\n    margin-top: 0;\r\n    font-size: 30px;\r\n    font-weight: bolder;\n}\n.swiper-stats[data-v-815456c4]{\r\n    grid-area: stats;\r\n    display:flex;\r\n    flex-direction: rox;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    box-shadow: 0px 5px 7px 1px rgba(0,0,0,0.75);\r\n    background:linear-gradient(to right, #000d5b, #01e5ee);\r\n    color: #fff;\r\n    font-size: xx-large;\r\n    padding: 10px;\r\n    text-decoration: none;\n}\n.swiper-stats img[data-v-815456c4]{\r\n    width: 45px;\n}\n.swiper-stats .stat[data-v-815456c4]{\r\n    display:flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    flex-direction: column;\n}\n.swiper-text .type[data-v-815456c4]{\r\n    font-size: 15px;\r\n    font-weight: 300;\r\n    text-transform: uppercase;\n}\n.swiper-text .value[data-v-815456c4]{\r\n    font-size: 40px;\r\n    font-weight: 500;\r\n    text-transform: uppercase;\n}\n.swiper-text .love-it[data-v-815456c4]{\r\n    font-size: 30px;\n}\n#contact-btn[data-v-815456c4]{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    color:#01e5ee;\r\n    text-decoration: none;\r\n    padding: 0.5rem 0.5rem;\r\n    border: 1px solid#01e5ee;\r\n    border-radius: 50px;\r\n    background-color: none;\r\n    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);\r\n    \r\n    font-size: 1.8rem;\r\n    letter-spacing: 2px;\r\n    overflow: hidden;\r\n    transition: .5s;\r\n    position: absolute;\r\n    top: 120vh;\r\n    right: 40vw;\r\n    width: 300px;\n}\n@media (max-width: 768px){\n.landing[data-v-815456c4]{\r\n        flex-direction: column;\r\n        height: auto;\r\n        padding: 70px 3px;\r\n        margin-top: 0px;\n}\nvideo[data-v-815456c4]{\r\n       width: 300px;\n}\n.landing .check-list-dm[data-v-815456c4]{\r\n        padding: 20px; \r\n        height: auto;\r\n        width: 80%;\r\n        font-size: medium;\r\n        margin: 50px 0;\n}\n.close-dm-showcase img[data-v-815456c4]{\r\n        background: transparent;\r\n        top: unset;\r\n        bottom: 1%;\r\n        left: 1%;\n}\n#contact-btn[data-v-815456c4]{\r\n        top: 213vh;\r\n        right: 9vw;\n}\n}\r\n   \r\n\r\n    \r\n\r\n", ""]);
+exports.push([module.i, "\np[data-v-815456c4]{\r\n  \r\n  font-size: 18px;\n}\nul[data-v-815456c4]{ \r\n    \r\n    list-style: none;\n}\nli[data-v-815456c4]{\r\n    margin: 10px;\n}\n.landing[data-v-815456c4]{\r\n    display: flex;\r\n    position: relative;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    width: 100%;\r\n    background: linear-gradient(to right, #000d5b, #01e5ee);\r\n    height: auto;\r\n    margin-top:80px;\n}\niframe[data-v-815456c4]{\r\n   width: 80%;\r\n   height: 450px;\r\n   margin: 50px 0;\n}\n.landing .check-list-dm[data-v-815456c4]{\r\n    border: 2px solid #01e5ee;\r\n    border-right-style:none ;\r\n    box-shadow:-8px 7px 5px 0px #003;\r\n    border-radius: 20px 0px 0px 20px;\r\n    color:#fff;\r\n    display: flex;\r\n    flex-direction: column;\r\n    padding: 20px;\r\n    height: 80vh;\r\n    width: 25%;\r\n    font-size: 22px;\n}\n.landing .check-list-dm img[data-v-815456c4]{\r\n    width: 20px;\r\n    margin-right: 10px;\n}\n.swiper-container-DM[data-v-815456c4] {\r\n    display: flex;\r\n    width: 300px;\r\n    height: 80vh;\n}\n.swiper-slide[data-v-815456c4] {\r\n    display:grid;\r\n    grid-template-columns: 300px;\r\n    grid-template-rows: 32vh 32vh 10vh;\r\n    grid-template-areas: \"image\" \"text\" \"stats\";\r\n    border-radius: 18px;\r\n    background:white;\r\n    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);\r\n    text-align: center;\r\n    background-position: center;\r\n    background-size: cover;\n}\n.swiper-image[data-v-815456c4]{\r\n    grid-area: image;\r\n    border-radius: 15px;\r\n    background-size: contain;\r\n    background-repeat: no-repeat;\r\n    margin: 5px 10px;\n}\n.swiper-image img[data-v-815456c4]{\r\n    margin-top: 15px;\r\n    width: 70%;\r\n    height: 90%;\n}\n.swiper-text[data-v-815456c4]{\r\n    grid-area: text;\r\n    color: #003;\r\n    font-weight: bolder;\n}\n.swiper-text p[data-v-815456c4]{\r\n    \r\n    font-size: 18px;\r\n    font-weight: 300px;\n}\n.swiper-text h5[data-v-815456c4]{\r\n    margin-top: 0;\r\n    font-size: 30px;\r\n    font-weight: bolder;\n}\n.swiper-stats[data-v-815456c4]{\r\n    grid-area: stats;\r\n    display:flex;\r\n    flex-direction: rox;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    box-shadow: 0px 5px 7px 1px rgba(0,0,0,0.75);\r\n    background:linear-gradient(to right, #000d5b, #01e5ee);\r\n    color: #fff;\r\n    font-size: xx-large;\r\n    padding: 10px;\r\n    text-decoration: none;\n}\n.swiper-stats img[data-v-815456c4]{\r\n    width: 45px;\n}\n.swiper-stats .stat[data-v-815456c4]{\r\n    display:flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    flex-direction: column;\n}\n.swiper-text .type[data-v-815456c4]{\r\n    font-size: 15px;\r\n    font-weight: 300;\r\n    text-transform: uppercase;\n}\n.swiper-text .value[data-v-815456c4]{\r\n    font-size: 40px;\r\n    font-weight: 500;\r\n    text-transform: uppercase;\n}\n.swiper-text .love-it[data-v-815456c4]{\r\n    font-size: 30px;\n}\n#contact-btn[data-v-815456c4]{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    color:#01e5ee;\r\n    text-decoration: none;\r\n    padding: 0.5rem 0.5rem;\r\n    border: 1px solid#01e5ee;\r\n    border-radius: 50px;\r\n    background-color: none;\r\n    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);\r\n    \r\n    font-size: 1.8rem;\r\n    letter-spacing: 2px;\r\n    overflow: hidden;\r\n    transition: .5s;\r\n    position: absolute;\r\n    top: 120vh;\r\n    right: 40vw;\r\n    width: 300px;\n}\n@media (max-width: 768px){\n.landing[data-v-815456c4]{\r\n        flex-direction: column;\r\n        height: auto;\r\n        padding: 70px 3px;\r\n        margin-top: 0px;\n}\niframe[data-v-815456c4]{\r\n       width: 300px;\r\n       height: 225px;\n}\n.landing .check-list-dm[data-v-815456c4]{\r\n        padding: 20px; \r\n        height: auto;\r\n        width: 80%;\r\n        font-size: medium;\r\n        margin: 50px 0;\n}\n.close-dm-showcase img[data-v-815456c4]{\r\n        background: transparent;\r\n        top: unset;\r\n        bottom: 1%;\r\n        left: 1%;\n}\n#contact-btn[data-v-815456c4]{\r\n        top: 213vh;\r\n        right: 9vw;\n}\n}\r\n   \r\n\r\n    \r\n\r\n", ""]);
 
 // exports
 
@@ -83762,11 +83765,15 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", [
       _c("div", { staticClass: "landing", attrs: { id: "landing" } }, [
-        _c("video", { attrs: { controls: "", autoplay: "" } }, [
-          _c("source", {
-            attrs: { src: "images/presentacion.mp4", type: "video/mp4" }
-          })
-        ]),
+        _c("iframe", {
+          attrs: {
+            src: "https://www.youtube.com/embed/GfZGUa1LLXg",
+            frameborder: "0",
+            allow:
+              "accelerometer; autoplay; \r\n            encrypted-media; gyroscope; picture-in-picture",
+            allowfullscreen: ""
+          }
+        }),
         _vm._v(" "),
         _c("div", { staticClass: "swiper-container-DM" }, [
           _c("div", { staticClass: "swiper-wrapper" }, [
@@ -97251,6 +97258,7 @@ $(document).ready(function () {
     }), 800, 'swing', function () {
       window.location.hash = target;
     }, $("#navList").removeClass('show-nav');
+    $('.navList').slideAndSwipe();
   });
 }); //Scrolling Nav. //
 
@@ -97274,7 +97282,11 @@ $(document).ready(function () {
   // Show menu//
   $("#bars").click(function () {
     $("#navList").toggleClass('show-nav');
-  }); // Show Showcases!!//
+  });
+  $('#arrow-close-menu').click(function () {
+    $("#navList").removeClass('show-nav');
+  }); // 
+  // Show Showcases!!//
 
   $("#show-wd").click(function () {
     $("#webdesign-showcase").addClass('show-wd-popup');
@@ -98800,8 +98812,8 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\Angogi\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\Angogi\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\KeyFunnel\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\KeyFunnel\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

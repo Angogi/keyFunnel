@@ -15,6 +15,8 @@ $(document).ready(function(){
 
         $("#navList").removeClass('show-nav');
 
+        $('.navList').slideAndSwipe();
+
     })
 })
 
@@ -49,6 +51,14 @@ $(document).ready(function(){
     $("#bars").click(function(){
         $("#navList").toggleClass('show-nav');
     });
+
+    $('#arrow-close-menu').click(function(){
+        $("#navList").removeClass('show-nav')
+    })
+
+    
+
+    // 
 
     // Show Showcases!!//
 
