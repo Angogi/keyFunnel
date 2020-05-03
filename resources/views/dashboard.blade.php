@@ -21,7 +21,17 @@
     </div>
 </div> -->
 
+<div class="logout" aria-labelledby="">
+    <a class="" href="{{ route('logout') }}"
+        onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();">
+        <h4>{{ __('Logout') }}</h4>
+    </a>
 
+    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+        @csrf
+    </form>
+</div>
 
 <free-evaluations></free-evaluations>
 <contacts></contacts>

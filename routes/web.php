@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/estonoesparati', function(){
+    return view('register');
+});
+
 Route::get('/landing', function () {
     return view('landing');
 });

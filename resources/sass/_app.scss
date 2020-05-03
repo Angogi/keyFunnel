@@ -109,7 +109,7 @@ body{
         width: 45px;
     }
 
-    & .nav-left .solutions-logo{
+    & .images-nav .solutions-logo{
         width: 45px;
         background: #003;
         border-radius: 50px;
@@ -195,20 +195,20 @@ body{
     
 }
 
-.nav-left .images-nav{
+.images-nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.nav-left .solutions-logo{
+.images-nav .solutions-logo{
     max-width: 55px;
     margin-left: 12px;
     transition: all .8s;
 
 }
-.nav-left .solutions-logo:hover{
+.images-nav .solutions-logo:hover{
     max-width: 35px;
     border-bottom: 2px solid #fe31fe;
     border-radius: 15px;
@@ -228,6 +228,22 @@ body{
 
 .whatsapp:hover {
     font-size: 60px;
+}
+
+.register-container{
+    margin-top: 120px;
+}
+
+.logout{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 50vw;
+    margin-top: 120px;
+    width: 100px;
+    background: #003;
+    border-radius: 50px;
+    box-shadow: 2px 5px 3px rgba(0,0 ,0, 0.5);
 }
 
 
@@ -253,11 +269,18 @@ body{
             
     }
 
-    .nav-left .solutions-logo{
-        width: 30px;
+    .images-nav{
         position: relative;
-        right: -110%;
+        right: -2%;
     }
+
+    .images-nav .solutions-logo{
+        max-width: 35px;
+        margin-left: 0px;
+        
+    }
+
+    
 
     .nav-left h6{
         font-size: small;
@@ -306,6 +329,12 @@ body{
 
     .nav-list ul{
         flex-direction: column;
+    }
+
+    .logout{
+        position:relative;
+        left: 25vw;
+        margin-top: 100px;
     }
 
     

@@ -54,11 +54,12 @@
                     </div>
                     <h2 class="">KeyFunnel</h2><h6>Marketing & Digital Solutions</h6>
                 </a>
-                <div class="images-nav">
-                    <a href="#"><img class="solutions-logo" src="images/solutions.png" alt="angogi-solutions-image"></a>
-                    <a href="/dashboard"><img class="solutions-logo" src="images/home-office.png" alt="angogi-solutions-image"></a>
-                </div>
+               
                 
+            </div>
+            <div class="images-nav">
+                <a href="#"><img class="solutions-logo" src="images/solutions.png" alt="angogi-solutions-image"></a>
+                <a href="/dashboard"><img class="solutions-logo" src="images/home-office.png" alt="angogi-solutions-image"></a>
             </div>
                 
             <div class="nav-list" id="navList">
