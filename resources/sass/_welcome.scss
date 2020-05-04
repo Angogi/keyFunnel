@@ -43,12 +43,11 @@
     top: 70%;
     left: 50%;
     transform: translate(-50%, 70%);
-    color: #fe31fe;
+    color: #f3f3f3;
     font-weight: bolder;
     padding: 5px 60px;
     font-size: 30px;
     letter-spacing: 2px;
-    text-transform: uppercase;
     text-decoration: none;
     box-shadow: 0 20px 50px rgba(0,0 ,0, 0.5);
     overflow: hidden;
@@ -201,15 +200,15 @@
     }
     
     .btn-banner{
-        top: 75%;
+        top: 80%;
         letter-spacing: 0px;
         padding: 3px 10px;
-        font-size: 28px;
+        font-size: 24px;
 
     }
 
     .btn-banner:hover{
-        font-size: 28px;
+        font-size: 25px;
     }
 
     #contact .hands{

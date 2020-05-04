@@ -1,7 +1,7 @@
 <template>
     <div class="section-five">  
         <h2>Hagamoslo Juntos !</h2>  
-        <h2>Cuéntame de tu proyecto</h2>  
+        <h2>Cuentanos de tu proyecto</h2>  
         
         <form class="form-container" @submit="sendContact" >
             <div class="col">
@@ -84,12 +84,32 @@ export default {
                 phone: this.phone,
                 message: this.message
             })
+            .then(function(response){
+                currentObj.clearFields();
+            })
+              
             .then(function (response) {
                     currentObj.output = response.data;
             })
             .catch(function (error) {
                 currentObj.output = error;
-            });
+            })
+            .then(function(response){
+                currentObj.returnContactView();
+            })
+        }, 
+
+          clearFields(){
+                this.name = "";
+                this.lastname = "";
+                this.email = "";
+                this.phone = "";
+                this.message= "";
+               
+            }, 
+
+        returnContactView(){
+           alert('Tus datos han sido enviados correctamente, nos pondremos en contacto lo antes posible. Saludos');
         }
     }
 }

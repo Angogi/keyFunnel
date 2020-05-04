@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Contact;
 use Illuminate\Http\Request;
 
+
 class ContactController extends Controller
 {
     /**
@@ -43,8 +44,13 @@ class ContactController extends Controller
             'phone' => 'required',
         ));
        
-        $contact = Contact::create($request->all());
-        return response()->json($contact);
+         Contact::create($request->all());
+
+        //  return Redirect::action('ContactController@show');
+
+        //  return redirect('/hablamos');
+        
+        // return response()->json($contact);
 
       
     }
@@ -57,7 +63,7 @@ class ContactController extends Controller
      */
     public function show(Contact $contact)
     {
-        //
+        
     }
 
     /**
@@ -93,4 +99,9 @@ class ContactController extends Controller
     {
         //
     }
+
+   
+    
+
+    
 }

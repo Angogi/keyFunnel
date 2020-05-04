@@ -41,8 +41,11 @@ export default {
        getContacts(){
            axios.get('api/contacts').then(response =>{
                this.contacts = response.data;
+              
            })
        },
+
+       
      
        
         

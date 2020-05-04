@@ -78,6 +78,8 @@
             <div class="alert alert-success hide"></div>
            
         </div>
+
+        
                 
     </div>
 </template>
@@ -106,6 +108,10 @@
         },
         methods: {
             formSubmit(e) {
+
+
+                
+
                 e.preventDefault();
                
                 let currentObj = this;
@@ -120,13 +126,36 @@
                     adsAditional: this.adsAditional,
                     comments: this.comments,
                 })
+                .then(function(response) {
+                    currentObj.clearFields();
+                })
                 .then(function (response) {
                     currentObj.output = response.data;
                 })
                 .catch(function (error) {
                     currentObj.output = error;
-                });
-            }
+                })
+                .then(function(){
+                    currentObj.returnContactView();
+                })
+            },
+
+             clearFields(){
+                this.name = "";
+                this.email = "";
+                this.phone = "";
+                this.webSite = "";
+                this.ads = "";
+                this.socialMediaAds = "";
+                this.adsAditional = "";
+                this.comments = "";
+            }, 
+
+            returnContactView(){
+               alert('Tus datos han sido enviados correctamente, nos pondremos en contacto lo antes posible. Saludos');
+           }
+
+          
         }
     }
 </script>

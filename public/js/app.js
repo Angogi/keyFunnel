@@ -2172,6 +2172,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -2203,10 +2205,27 @@ __webpack_require__.r(__webpack_exports__);
         adsAditional: this.adsAditional,
         comments: this.comments
       }).then(function (response) {
+        currentObj.clearFields();
+      }).then(function (response) {
         currentObj.output = response.data;
       })["catch"](function (error) {
         currentObj.output = error;
+      }).then(function () {
+        currentObj.returnContactView();
       });
+    },
+    clearFields: function clearFields() {
+      this.name = "";
+      this.email = "";
+      this.phone = "";
+      this.webSite = "";
+      this.ads = "";
+      this.socialMediaAds = "";
+      this.adsAditional = "";
+      this.comments = "";
+    },
+    returnContactView: function returnContactView() {
+      alert('Tus datos han sido enviados correctamente, nos pondremos en contacto lo antes posible. Saludos');
     }
   }
 });
@@ -2492,10 +2511,24 @@ __webpack_require__.r(__webpack_exports__);
         phone: this.phone,
         message: this.message
       }).then(function (response) {
+        currentObj.clearFields();
+      }).then(function (response) {
         currentObj.output = response.data;
       })["catch"](function (error) {
         currentObj.output = error;
+      }).then(function (response) {
+        currentObj.returnContactView();
       });
+    },
+    clearFields: function clearFields() {
+      this.name = "";
+      this.lastname = "";
+      this.email = "";
+      this.phone = "";
+      this.message = "";
+    },
+    returnContactView: function returnContactView() {
+      alert('Tus datos han sido enviados correctamente, nos pondremos en contacto lo antes posible. Saludos');
     }
   }
 });
@@ -84113,7 +84146,7 @@ var render = function() {
   return _c("div", { staticClass: "section-five" }, [
     _c("h2", [_vm._v("Hagamoslo Juntos !")]),
     _vm._v(" "),
-    _c("h2", [_vm._v("Cuéntame de tu proyecto")]),
+    _c("h2", [_vm._v("Cuentanos de tu proyecto")]),
     _vm._v(" "),
     _c(
       "form",
@@ -97442,6 +97475,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./routes */ "./resources/js/routes.js");
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_routes__WEBPACK_IMPORTED_MODULE_3__);
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -97461,16 +97496,6 @@ Vue.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BootstrapVue"]);
 Vue.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["IconsPlugin"]);
 
 Vue.use(axios__WEBPACK_IMPORTED_MODULE_2___default.a);
-/**
- * The following block of code may be used to automatically register your
- * Vue components. It will recursively scan this directory for the Vue
- * components and automatically register them with their "basename".
- *
- * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
- */
-// const files = require.context('./', true, /\.vue$/i)
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
-
 Vue.component('section-one', __webpack_require__(/*! ./components/SectionOneComponent.vue */ "./resources/js/components/SectionOneComponent.vue")["default"]);
 Vue.component('section-two', __webpack_require__(/*! ./components/SectionTwoComponent.vue */ "./resources/js/components/SectionTwoComponent.vue")["default"]);
 Vue.component('section-three', __webpack_require__(/*! ./components/SectionThreeComponent.vue */ "./resources/js/components/SectionThreeComponent.vue")["default"]);
@@ -97484,14 +97509,10 @@ Vue.component('digital-marketing-showcase', __webpack_require__(/*! ./components
 Vue.component('landing', __webpack_require__(/*! ./components/Lading.vue */ "./resources/js/components/Lading.vue")["default"]);
 Vue.component('section-footer', __webpack_require__(/*! ./components/FooterComponent.vue */ "./resources/js/components/FooterComponent.vue")["default"]);
 Vue.component('evaluation-form', __webpack_require__(/*! ./components/EvaluationForm.vue */ "./resources/js/components/EvaluationForm.vue")["default"]);
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
 
 var app = new Vue({
-  el: '#app'
+  el: '#app',
+  router: _routes__WEBPACK_IMPORTED_MODULE_3___default.a
 });
 
 /***/ }),
@@ -98950,6 +98971,28 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   var e = window.Waypoint;
   window.jQuery && (window.jQuery.fn.waypoint = t(window.jQuery)), window.Zepto && (window.Zepto.fn.waypoint = t(window.Zepto));
 }();
+
+/***/ }),
+
+/***/ "./resources/js/routes.js":
+/*!********************************!*\
+  !*** ./resources/js/routes.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// import Vue from 'vue'
+// import Router from 'vue-router'
+// Vue.use(Router)
+// export default new Router({
+//     routes: [
+//         {
+//           path: '/hablamos',  
+//           name: '/hablamos' ,
+//           component: require('../views/hablamos') 
+//         }
+//     ]
+// })
 
 /***/ }),
 

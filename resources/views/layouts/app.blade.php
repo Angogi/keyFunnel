@@ -102,6 +102,7 @@
 
         <main  id="showcase">
             @yield('content')
+            
         </main>
 
         <a class="whatsapp" href="https://api.whatsapp.com/send?phone=34618210562&text=Hola Francisco, quiero obtener mi prueba gratuita de marketing digital!">

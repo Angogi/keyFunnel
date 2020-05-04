@@ -20,8 +20,22 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-Route::get('/evaluations', 'FreeEvaluationController@index');
+Route::get('/evaluations', 'FreeEvaluationController@index'); 
 Route::post('/free-evaluations', 'FreeEvaluationController@store');
 
 Route::get('/contacts', 'ContactController@index');
+
 Route::post('/contacts', 'ContactController@store');
+
+Route::get('/hablamos', function(){
+    return view('hablamos');
+});
+
+// Route::get('/hablamos', function(){
+//     return view('hablamos');
+// });
+
+
+
+
+

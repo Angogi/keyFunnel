@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/estonoesparati', function(){
+Route::get('/register', function(){
     return view('register');
 });
 
@@ -30,6 +30,12 @@ Route::get('/evaluation-form', 'FreeEvaluationController@create')->name('evaluat
 Auth::routes();
 
 Route::get('/dashboard', 'HomeController@index')->name('home');
+
+// Route::get('/hablamos', function(){
+//     return view('hablamos');
+// });
+
+
 
 
 
