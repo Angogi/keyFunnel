@@ -9,7 +9,7 @@
                 <p>Diseñamos a medida no solo un sitio web, sino 
                     toda la maquinaria digital que requieres para 
                     tener todo bajo control. </p>
-                <a href="#">Ver más !</a>
+                <a href="#">Ver más</a>
             </div>
         </div>
       
@@ -21,7 +21,7 @@
             <div class="content-text">
                 <h3>  Blockchain Solutions  </h3>
                 <p>Integramos tu sitio web con metodos de pago descentralizados como Bitocoin y Ethereum. </p>
-                <a href="#">Ver más !</a>
+                <a href="#">Ver más</a>
             </div>
         </div>
     </div>

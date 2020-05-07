@@ -104,12 +104,17 @@
             @yield('content')
             
         </main>
-
-        <a class="whatsapp" href="https://api.whatsapp.com/send?phone=34618210562&text=Hola Francisco, quiero obtener mi prueba gratuita de marketing digital!">
-         
-            <i class="fab fa-whatsapp"></i> 
-        </a>
-
+        <div class="contact-icons">  
+            <a class="icons" href="https://api.whatsapp.com/send?phone=34618210562&text=Hola Francisco, quiero obtener mi prueba gratuita de marketing digital!">
+                <i class="fab fa-facebook-messenger"></i> 
+            </a> 
+            <div class="vertical-line icons"></div>
+            <a class="icons" href="https://api.whatsapp.com/send?phone=34618210562&text=Hola Francisco, quiero obtener mi prueba gratuita de marketing digital!">
+                <i class="fab fa-whatsapp"></i> 
+            </a>
+            
+           
+        </div>
         <footer>
             
             <section-footer></section-footer>

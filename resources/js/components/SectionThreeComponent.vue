@@ -1,17 +1,6 @@
 <template>
     <div class="container-section-3">
-        <div class="card-S3">
-            <div class="imgBox">
-                <img src="/images/web-disign.png" alt="">
-                <h3> Diseño Web</h3>
-            </div>
-            <div class="textBox">
-                <p> Mezclamos nuestro ingenio con tecnología de vangardia 
-                    para dar a tu negocio la mejor imagen en linea. 
-                </p>
-                <div class="buttons-S3" id="show-wd">Ver más !</div>
-            </div>
-        </div>
+        
         
               
         <div class="card-S3">
@@ -20,11 +9,24 @@
                 <h3>Digital Marketing</h3>
             </div>
             <div class="textBox">
-                <p>Anunciate con confianza ! <br>
+                <p>Anunciate con confianza. <br>
                     Estudiamos y diseñamos estrategias de 
                     markerting digital para llegar a tu cliente ideal. 
                 </p>
-                 <div class="buttons-S3" id="show-dm" >Ver más ! </div>
+                 <div class="buttons-S3" id="show-dm" >Ver más  </div>
+            </div>
+        </div>
+
+        <div class="card-S3">
+            <div class="imgBox">
+                <img src="/images/web-disign.png" alt="">
+                <h3> Diseño Web</h3>
+            </div>
+            <div class="textBox">
+                <p> Mezclamos nuestro ingenio con tecnología de vangüardia 
+                    para dar a tu negocio la mejor imagen en linea. 
+                </p>
+                <div class="buttons-S3" id="show-wd">Ver más </div>
             </div>
         </div>
 
@@ -38,7 +40,7 @@
                 <p>Integramos y adaptamos tu negocio con las mejores 
                     herramientas de la era digital, para que logres tus objetivos.  
                 </p>
-                <div class="buttons-S3" >Ver más ! </div>
+                <div class="buttons-S3" >Ver más  </div>
             </div>
         </div>
         

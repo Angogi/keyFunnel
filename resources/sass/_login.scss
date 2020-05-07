@@ -1,0 +1,17 @@
+.adss-section{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 50vh;  
+    width: 100%;    
+    
+
+    & i{
+        font-size: xx-large;    
+        position: relative;
+        top: -10%;
+    }
+    
+}
+

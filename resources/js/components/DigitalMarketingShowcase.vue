@@ -22,7 +22,7 @@
                 <h5>Anunciate con confianza</h5>
                 <p> Nuestro programa de marketing digital 
                     para negocios locales y autónomos. <br>
-                    ¡ Te ayudamos a lograr tus objetivos comerciales !
+                    Te ayudamos a lograr tus objetivos comerciales.
                 </p>
                 </div>
                 <a class="swiper-stats button-DM" href="/evaluation-form">
@@ -45,7 +45,7 @@
                 </div>
                  <a class="swiper-stats button-DM" href="/evaluation-form">
                     <img src="/images/talking.png" alt="people-talking-chat">
-                    <h3>Quiero mi prueba gratuita</h3>
+                    <h3>Quiero mi prueba gratuita</h3> 
                     <i class="far fa-hand-point-up"></i>
                 </a>
             </div>
@@ -58,7 +58,7 @@
                 <h5>Prueba Gratuita</h5>
                 <p> Estamos tan seguros de nuestros resultados que te
                     regalamos una prueba totalmente GRATUITA.<br>
-                    Si ! GRATUITA. 
+                    ¡ Si,  GRATUITA ! 
                 </p>
                 </div>
                 <a class="swiper-stats button-DM" href="/evaluation-form">
@@ -75,8 +75,8 @@
                 <div class="swiper-text">
                 
                     <h5>Evaluación Gratuita</h5>
-                    <p>Para acceder a nuestra prueba GRATUITA debemor evaluar tu "situación digital",<br> 
-                    que dices, ¿Iniciamos hoy mismo?
+                    <p>Para acceder a nuestra prueba GRATUITA debemor evaluar tu situación digital,<br> 
+                    ¿que dices, iniciamos hoy mismo?
                     </p>
                 </div>
                 <a class="swiper-stats button-DM" href="/evaluation-form">

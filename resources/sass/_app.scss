@@ -215,21 +215,46 @@ body{
     border-radius: 15px;
 }
 
-.whatsapp{
+.contact-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: RGBA(0, 0, 51, 0.43);
+    border-left: 2px solid #01e5ee;
+    border-right: 1px solid #01e5ee;
+    border-radius: 25px 0;
     position: fixed;
     bottom: -1.5%;
     right: 1%;
+    width: 150px;
+    height: 75px;
     z-index: 1000;
+    padding:10px 10px 20px;;
+
+}
+
+.contact-icons .icons{
+    position: relative;
+    width: 30%;
+    
+
     cursor: pointer;
-    font-size: 45px; 
-    color: #00e676 !important;
-    transition: all .5s;
+    color: #ffff !important;
+    transition: all 0.5s;
+
+    & i{
+        font-size: 45px;
+    }
 }
 
+.contact-icons .vertical-line{
+    width: 1.5px;
+    background: linear-gradient(to top, #016899 , #00ffe7);
+    height: auto;
+  }
 
-.whatsapp:hover {
-    font-size: 60px;
-}
+
+
 
 .register-container{
     margin-top: 120px;
@@ -337,6 +362,27 @@ body{
         left: 25vw;
         margin-top: 100px;
     }
+
+    .contact-icons{
+        width: auto;
+        justify-content: center;
+        right: 3%;
+        height: auto;
+        padding: 2px 2px;
+        
+    }
+
+    .contact-icons .icons{
+        
+        margin: 7px 14px;
+       
+
+        & i{
+            font-size: 25px;
+        }
+    }
+
+    
 
     
 }

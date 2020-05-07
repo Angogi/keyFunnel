@@ -28,7 +28,7 @@
                 <div class="swiper-stats">
                 <div class="stat">
                     <div class="love-it"><i class="far fa-heart"></i></div>
-                    <div class="type">Lo quiero !</div>
+                    <div class="type">¡ Lo quiero !</div>
                 </div>
                 <div class="stat">
                     <div class="value">Desde</div>
@@ -54,7 +54,7 @@
                 <div class="swiper-stats">
                 <div class="stat">
                 <div class="love-it"><i class="far fa-heart"></i></div>
-                    <div class="type">Lo quiero !</div>
+                    <div class="type">¡ Lo quiero !</div>
                 </div>
                 <div class="stat">
                     <div class="value">Desde</div>
@@ -74,14 +74,14 @@
                 
                 <h5>Tienda Online</h5>
                 <p>Despreocúpate de la presencia Online de tu tienda y 
-                    ocupate de lo que haces con pasión, hacer crecer tu negocio ! <br>
+                    ocupate de lo que haces con pasión, ¡ hacer crecer tu negocio ! <br>
                     Diseños modulares fantasticos y que verdaremente venden. 
                 </p>
                 </div>
                 <div class="swiper-stats">
                 <div class="stat">
                     <div class="love-it"><i class="far fa-heart"></i></div>
-                    <div class="type">Lo quiero !</div>
+                    <div class="type">¡ Lo quiero !</div>
                 </div>
                 <div class="stat">
                     <div class="value">Desde</div>
@@ -100,14 +100,14 @@
                 <div class="swiper-text">
                 
                 <h5>Landing Page</h5>
-                <p>Esta será tu primera parada para un negocio de éxito en linea ! <br>
+                <p>Esta será tu primera parada para un negocio de éxito en linea. <br>
                     Una manera simple y elegante de atraer a tus clientes. 
                 </p>
                 </div>
                 <div class="swiper-stats">
                 <div class="stat">
                     <div class="love-it"><i class="far fa-heart"></i></div>
-                    <div class="type">Lo quiero !</div>
+                    <div class="type">¡ Lo quiero !</div>
                 </div>
                 <div class="stat">
                     <div class="value">Desde</div>

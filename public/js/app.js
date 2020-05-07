@@ -2649,6 +2649,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -48164,6 +48166,25 @@ var warnNoMutationObserverSupport = function warnNoMutationObserverSupport(sourc
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/BannerAdsToVirtualOffice.vue?vue&type=style&index=0&id=445bf85a&scoped=true&lang=css&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/BannerAdsToVirtualOffice.vue?vue&type=style&index=0&id=445bf85a&scoped=true&lang=css& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.container-ads-section[data-v-445bf85a]{\n        position: relative;\n        display: flex;\n        flex-direction: column;\n        padding: 15px;\n        border-radius: 50px 0;\n        color: #ffffff;\n        width: 100%;\n        height: 50%;\n        background: linear-gradient(to right, #000d5b, #01e5ee);\n        z-index: -1;\n}\n    \n    \n", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Contacts.vue?vue&type=style&index=0&id=6766143e&scoped=true&lang=css&":
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Contacts.vue?vue&type=style&index=0&id=6766143e&scoped=true&lang=css& ***!
@@ -81681,6 +81702,36 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/BannerAdsToVirtualOffice.vue?vue&type=style&index=0&id=445bf85a&scoped=true&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/BannerAdsToVirtualOffice.vue?vue&type=style&index=0&id=445bf85a&scoped=true&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./BannerAdsToVirtualOffice.vue?vue&type=style&index=0&id=445bf85a&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/BannerAdsToVirtualOffice.vue?vue&type=style&index=0&id=445bf85a&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Contacts.vue?vue&type=style&index=0&id=6766143e&scoped=true&lang=css&":
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Contacts.vue?vue&type=style&index=0&id=6766143e&scoped=true&lang=css& ***!
@@ -82941,6 +82992,46 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/BannerAdsToVirtualOffice.vue?vue&type=template&id=445bf85a&scoped=true&":
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/BannerAdsToVirtualOffice.vue?vue&type=template&id=445bf85a&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container-ads-section" }, [
+      _c("h3", [_vm._v("¿Aún sin tu  propia oficina virtual?")]),
+      _vm._v(" "),
+      _c("h5", [
+        _vm._v(
+          "Ahora que trabajas desde casa sabes lo imprescindible que es contar con herramientas digitales, "
+        ),
+        _c("span", [_vm._v("¿que tal una digital office a medida?")])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Contacts.vue?vue&type=template&id=6766143e&scoped=true&":
 /*!***********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Contacts.vue?vue&type=template&id=6766143e&scoped=true& ***!
@@ -83082,7 +83173,7 @@ var staticRenderFns = [
                   ),
                   _c("br"),
                   _vm._v(
-                    "\n                  ¡ Te ayudamos a lograr tus objetivos comerciales !\n              "
+                    "\n                  Te ayudamos a lograr tus objetivos comerciales.\n              "
                   )
                 ])
               ]),
@@ -83165,7 +83256,9 @@ var staticRenderFns = [
                     " Estamos tan seguros de nuestros resultados que te\n                  regalamos una prueba totalmente GRATUITA."
                   ),
                   _c("br"),
-                  _vm._v("\n                  Si ! GRATUITA. \n              ")
+                  _vm._v(
+                    "\n                  ¡ Si,  GRATUITA ! \n              "
+                  )
                 ])
               ]),
               _vm._v(" "),
@@ -83200,11 +83293,11 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("p", [
                   _vm._v(
-                    'Para acceder a nuestra prueba GRATUITA debemor evaluar tu "situación digital",'
+                    "Para acceder a nuestra prueba GRATUITA debemor evaluar tu situación digital,"
                   ),
                   _c("br"),
                   _vm._v(
-                    " \n                  que dices, ¿Iniciamos hoy mismo?\n                  "
+                    " \n                  ¿que dices, iniciamos hoy mismo?\n                  "
                   )
                 ])
               ]),
@@ -84361,7 +84454,7 @@ var staticRenderFns = [
             )
           ]),
           _vm._v(" "),
-          _c("a", { attrs: { href: "#" } }, [_vm._v("Ver más !")])
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Ver más")])
         ])
       ]),
       _vm._v(" "),
@@ -84381,7 +84474,7 @@ var staticRenderFns = [
             )
           ]),
           _vm._v(" "),
-          _c("a", { attrs: { href: "#" } }, [_vm._v("Ver más !")])
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Ver más")])
         ])
       ])
     ])
@@ -84491,26 +84584,6 @@ var staticRenderFns = [
     return _c("div", { staticClass: "container-section-3" }, [
       _c("div", { staticClass: "card-S3" }, [
         _c("div", { staticClass: "imgBox" }, [
-          _c("img", { attrs: { src: "/images/web-disign.png", alt: "" } }),
-          _vm._v(" "),
-          _c("h3", [_vm._v(" Diseño Web")])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "textBox" }, [
-          _c("p", [
-            _vm._v(
-              " Mezclamos nuestro ingenio con tecnología de vangardia \n                para dar a tu negocio la mejor imagen en linea. \n            "
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "buttons-S3", attrs: { id: "show-wd" } }, [
-            _vm._v("Ver más !")
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "card-S3" }, [
-        _c("div", { staticClass: "imgBox" }, [
           _c("img", {
             attrs: { src: "/images/online-advertising.png", alt: "" }
           }),
@@ -84520,7 +84593,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "textBox" }, [
           _c("p", [
-            _vm._v("Anunciate con confianza ! "),
+            _vm._v("Anunciate con confianza. "),
             _c("br"),
             _vm._v(
               "\n                Estudiamos y diseñamos estrategias de \n                markerting digital para llegar a tu cliente ideal. \n            "
@@ -84528,7 +84601,27 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "buttons-S3", attrs: { id: "show-dm" } }, [
-            _vm._v("Ver más ! ")
+            _vm._v("Ver más  ")
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "card-S3" }, [
+        _c("div", { staticClass: "imgBox" }, [
+          _c("img", { attrs: { src: "/images/web-disign.png", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v(" Diseño Web")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "textBox" }, [
+          _c("p", [
+            _vm._v(
+              " Mezclamos nuestro ingenio con tecnología de vangüardia \n                para dar a tu negocio la mejor imagen en linea. \n            "
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "buttons-S3", attrs: { id: "show-wd" } }, [
+            _vm._v("Ver más ")
           ])
         ])
       ]),
@@ -84549,7 +84642,7 @@ var staticRenderFns = [
             )
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "buttons-S3" }, [_vm._v("Ver más ! ")])
+          _c("div", { staticClass: "buttons-S3" }, [_vm._v("Ver más  ")])
         ])
       ])
     ])
@@ -84868,7 +84961,7 @@ var staticRenderFns = [
                     _c("i", { staticClass: "far fa-heart" })
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "type" }, [_vm._v("Lo quiero !")])
+                  _c("div", { staticClass: "type" }, [_vm._v("¡ Lo quiero !")])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "stat" }, [
@@ -84908,7 +85001,7 @@ var staticRenderFns = [
                     _c("i", { staticClass: "far fa-heart" })
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "type" }, [_vm._v("Lo quiero !")])
+                  _c("div", { staticClass: "type" }, [_vm._v("¡ Lo quiero !")])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "stat" }, [
@@ -84939,7 +85032,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("p", [
                   _vm._v(
-                    "Despreocúpate de la presencia Online de tu tienda y \n                  ocupate de lo que haces con pasión, hacer crecer tu negocio ! "
+                    "Despreocúpate de la presencia Online de tu tienda y \n                  ocupate de lo que haces con pasión, ¡ hacer crecer tu negocio ! "
                   ),
                   _c("br"),
                   _vm._v(
@@ -84954,7 +85047,7 @@ var staticRenderFns = [
                     _c("i", { staticClass: "far fa-heart" })
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "type" }, [_vm._v("Lo quiero !")])
+                  _c("div", { staticClass: "type" }, [_vm._v("¡ Lo quiero !")])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "stat" }, [
@@ -84985,7 +85078,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("p", [
                   _vm._v(
-                    "Esta será tu primera parada para un negocio de éxito en linea ! "
+                    "Esta será tu primera parada para un negocio de éxito en linea. "
                   ),
                   _c("br"),
                   _vm._v(
@@ -85000,7 +85093,7 @@ var staticRenderFns = [
                     _c("i", { staticClass: "far fa-heart" })
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "type" }, [_vm._v("Lo quiero !")])
+                  _c("div", { staticClass: "type" }, [_vm._v("¡ Lo quiero !")])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "stat" }, [
@@ -97509,6 +97602,7 @@ Vue.component('digital-marketing-showcase', __webpack_require__(/*! ./components
 Vue.component('landing', __webpack_require__(/*! ./components/Lading.vue */ "./resources/js/components/Lading.vue")["default"]);
 Vue.component('section-footer', __webpack_require__(/*! ./components/FooterComponent.vue */ "./resources/js/components/FooterComponent.vue")["default"]);
 Vue.component('evaluation-form', __webpack_require__(/*! ./components/EvaluationForm.vue */ "./resources/js/components/EvaluationForm.vue")["default"]);
+Vue.component('banner-ads-vo', __webpack_require__(/*! ./components/BannerAdsToVirtualOffice.vue */ "./resources/js/components/BannerAdsToVirtualOffice.vue")["default"]);
 
 var app = new Vue({
   el: '#app',
@@ -97559,6 +97653,77 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     encrypted: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/components/BannerAdsToVirtualOffice.vue":
+/*!**************************************************************!*\
+  !*** ./resources/js/components/BannerAdsToVirtualOffice.vue ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _BannerAdsToVirtualOffice_vue_vue_type_template_id_445bf85a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BannerAdsToVirtualOffice.vue?vue&type=template&id=445bf85a&scoped=true& */ "./resources/js/components/BannerAdsToVirtualOffice.vue?vue&type=template&id=445bf85a&scoped=true&");
+/* harmony import */ var _BannerAdsToVirtualOffice_vue_vue_type_style_index_0_id_445bf85a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BannerAdsToVirtualOffice.vue?vue&type=style&index=0&id=445bf85a&scoped=true&lang=css& */ "./resources/js/components/BannerAdsToVirtualOffice.vue?vue&type=style&index=0&id=445bf85a&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  script,
+  _BannerAdsToVirtualOffice_vue_vue_type_template_id_445bf85a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _BannerAdsToVirtualOffice_vue_vue_type_template_id_445bf85a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "445bf85a",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/BannerAdsToVirtualOffice.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/BannerAdsToVirtualOffice.vue?vue&type=style&index=0&id=445bf85a&scoped=true&lang=css&":
+/*!***********************************************************************************************************************!*\
+  !*** ./resources/js/components/BannerAdsToVirtualOffice.vue?vue&type=style&index=0&id=445bf85a&scoped=true&lang=css& ***!
+  \***********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_BannerAdsToVirtualOffice_vue_vue_type_style_index_0_id_445bf85a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./BannerAdsToVirtualOffice.vue?vue&type=style&index=0&id=445bf85a&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/BannerAdsToVirtualOffice.vue?vue&type=style&index=0&id=445bf85a&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_BannerAdsToVirtualOffice_vue_vue_type_style_index_0_id_445bf85a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_BannerAdsToVirtualOffice_vue_vue_type_style_index_0_id_445bf85a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_BannerAdsToVirtualOffice_vue_vue_type_style_index_0_id_445bf85a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_BannerAdsToVirtualOffice_vue_vue_type_style_index_0_id_445bf85a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_BannerAdsToVirtualOffice_vue_vue_type_style_index_0_id_445bf85a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/BannerAdsToVirtualOffice.vue?vue&type=template&id=445bf85a&scoped=true&":
+/*!*********************************************************************************************************!*\
+  !*** ./resources/js/components/BannerAdsToVirtualOffice.vue?vue&type=template&id=445bf85a&scoped=true& ***!
+  \*********************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BannerAdsToVirtualOffice_vue_vue_type_template_id_445bf85a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./BannerAdsToVirtualOffice.vue?vue&type=template&id=445bf85a&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/BannerAdsToVirtualOffice.vue?vue&type=template&id=445bf85a&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BannerAdsToVirtualOffice_vue_vue_type_template_id_445bf85a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BannerAdsToVirtualOffice_vue_vue_type_template_id_445bf85a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 

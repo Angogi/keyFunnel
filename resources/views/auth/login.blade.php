@@ -70,4 +70,10 @@
         </div>
     </div>
 </div>
+<div class="adss-section">
+<i class="fas fa-angle-double-down"></i>
+
+<banner-ads-vo></banner-ads-vo>
+
+</div>
 @endsection

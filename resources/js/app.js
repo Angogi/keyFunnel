@@ -44,8 +44,13 @@ Vue.component('landing', require('./components/Lading.vue').default);
 
 
 Vue.component('section-footer', require('./components/FooterComponent.vue').default);
-
 Vue.component('evaluation-form', require('./components/EvaluationForm.vue').default);
+
+
+
+Vue.component('banner-ads-vo', require('./components/BannerAdsToVirtualOffice.vue').default);
+
+
 
 import router from './routes'
 
