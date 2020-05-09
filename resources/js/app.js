@@ -49,6 +49,7 @@ Vue.component('evaluation-form', require('./components/EvaluationForm.vue').defa
 
 
 Vue.component('banner-ads-vo', require('./components/BannerAdsToVirtualOffice.vue').default);
+// Vue.component('banner-home-page', require('./components/BannerHomePage.vue').default);
 
 
 

@@ -97602,7 +97602,8 @@ Vue.component('digital-marketing-showcase', __webpack_require__(/*! ./components
 Vue.component('landing', __webpack_require__(/*! ./components/Lading.vue */ "./resources/js/components/Lading.vue")["default"]);
 Vue.component('section-footer', __webpack_require__(/*! ./components/FooterComponent.vue */ "./resources/js/components/FooterComponent.vue")["default"]);
 Vue.component('evaluation-form', __webpack_require__(/*! ./components/EvaluationForm.vue */ "./resources/js/components/EvaluationForm.vue")["default"]);
-Vue.component('banner-ads-vo', __webpack_require__(/*! ./components/BannerAdsToVirtualOffice.vue */ "./resources/js/components/BannerAdsToVirtualOffice.vue")["default"]);
+Vue.component('banner-ads-vo', __webpack_require__(/*! ./components/BannerAdsToVirtualOffice.vue */ "./resources/js/components/BannerAdsToVirtualOffice.vue")["default"]); // Vue.component('banner-home-page', require('./components/BannerHomePage.vue').default);
+
 
 var app = new Vue({
   el: '#app',
