@@ -1,0 +1,388 @@
+hr{
+    width: 80%;
+    border-top: 1px solid #000033;
+}
+
+
+.marketing-page-container{
+    width: 100%;
+    height: 100%;
+    background: red($color: #000000);
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.marketing-page-container section{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.container-section{
+    width: 100%;
+    position: relative;
+}
+
+#s1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background: #003 url("/images/marketing-atraccion.png") no-repeat fixed center; 
+   
+    padding: 25px;
+    background-size: cover;
+}
+
+
+.titleKeyFunnel{
+    color: #f6ca5b;
+    
+    width: 100%;
+    height: 8rem;
+    text-align: center;
+    
+    font-weight: bolder;
+
+    & h1{
+        
+        font-weight: bolder;
+        font-size: 7rem;
+       
+        
+        }
+    
+     
+
+}
+
+.cardS1{
+    color: #000033;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 550px;
+    padding: 0px 20px;
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    border: 2px dashed #f6ca5b;
+    border-radius: 20% 20% 20% 20% / 50% 50% 50% 50% ;
+    text-align: center;
+   
+
+    
+}
+
+.cardS1 a{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: .2rem;
+    background: #003;
+    border-radius: 5rem;
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    width: 15rem;
+}
+
+
+#s2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #f6ca5b;
+    padding: 25px;
+    overflow: hidden;
+    
+}
+
+.cardS2{
+    display: grid;
+    grid-template-columns: 300px;
+    height: 235px;
+    border-radius: 18px;
+    background: #ffff;  
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    margin-bottom: 20px;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.cardS2:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+
+
+// .image-card-1{
+//     background: url('/images/ecommerce-women.png'); 
+//     background-size: cover;
+// }
+// .image-card-2{
+//     background: url('/images/adverstising-1.png'); 
+//     background-size: cover;
+// }
+// .image-card-3{
+//     background: url('/images/fondo-ecommerce.png'); 
+//     background-size: cover;
+// }
+
+.card-text{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.card-text p{
+    color: #000033;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-text h2{
+    font-size: 35px;
+    font-weight: bolder;
+    color: #f9c259;
+}
+
+#s3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #003; 
+    padding: 25px;
+    background-size: cover;
+    box-shadow: 0px 5px 7px 1px rgba(0,0,0,0.75);
+    // border-radius: 50% 50% 75% 25% / 50% 25% 75% 50%  ;
+}
+
+.section-title{
+    // text-align: center;
+    width: 100%;
+    color: #f9c259;
+    margin: 5rem 0;
+
+    background: #ffff;
+    border-radius: 18px;
+    box-shadow: 0px 5px 7px 1px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    
+
+    & h2{
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+
+    & span{
+        font-size: 2rem;
+    }
+}
+
+.cards-container-s3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    width: 90%;
+    margin: 10px 15px;
+}
+
+.cardS3{
+    min-width: 330px;
+    height: 420px ;
+    position: relative;
+    background: #ffff;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    box-shadow: 0px 5px 7px 1px rgba(0,0,0,0.75);
+    transition: 0.1s ease-in-out;
+    border-radius: 18px;
+    // opacity: 0;
+    
+
+}
+
+.showCardS3{
+    // opacity: 1;
+    height: 215px;
+}
+
+
+
+.cardS3:hover{
+    height: 420px;
+    color: #f9c259;
+    background: #003;
+    text-align: center;
+}
+
+.cardS3 .imgBox{
+    border-radius: 18px;
+    position: relative;
+    max-width: 400px;
+    height: 215px;
+    box-shadow: 0px 5px 7px 1px rgba(0, 0, 0, 0.75);
+    z-index: 1;
+    transition: 0.1s ease-in-out;
+  
+
+    
+    
+}
+
+
+
+
+
+.cardS3  .image-card-S3-1{
+
+    background: url('/images/capta.jpg'); 
+    background-size: cover;
+
+}
+.cardS3  .image-card-S3-2{
+
+    background: url('/images/captura.jpg'); 
+    background-size: cover;
+
+}
+.cardS3  .image-card-S3-3{
+
+    background: url('/images/contacta.jpg'); 
+    background-size: cover;
+
+}
+
+.cardS3 .tx-cont{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    visibility: hidden;
+    // opacity: 0;
+    transition: 0.1s ease-in-out;
+
+}
+
+.cardS3:hover .tx-cont{
+    visibility: visible;
+    // opacity: 1;
+    margin-top: 40px;
+    transition-delay: 0.3s;
+}
+
+.container-video-s3 video{
+    width: 100%;
+    box-shadow: 0px 5px 7px 1px rgba(0,0,0,0.75);
+    border-radius: 18px;
+    height: 300px;
+   
+}
+
+
+
+
+.tx-cont h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+
+
+
+#s4{
+    
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #ffffff; 
+    
+   
+
+   
+}
+#s5{
+    
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #003; 
+    padding: 25px;
+    background-size: cover;
+    height: 50vh;
+   
+}
+
+#s5 .section-title h2{
+    background: transparent;
+     border-radius: 18px;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .titleKeyFunnel h1{
+        font-size: 4rem;
+        margin-bottom: 6rem;
+    }
+
+    .cardS1{
+        width: 250px;
+    }
+}
+
+
+@media (max-width: 768px){
+
+    .marketing-page-container{
+        margin-top: 50px;
+    }
+
+    .marketing-page-container #s1{
+        justify-content: center;
+    }
+
+    .titleKeyFunnel{
+        height: 12rem;
+    }
+    .titleKeyFunnel h1{
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .cardS1{
+        
+        font-size: 2rem;
+        margin: 0 20px;
+    }
+
+    .cardS3{
+        
+        min-width: 280px;
+    }
+
+    
+
+}

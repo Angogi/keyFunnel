@@ -15,6 +15,8 @@
        <!-- swiper js  -->
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
+   
+
     <!-- way points-->
 
     <!-- <script src="/path/to/noframework.waypoints.min.js"></script> -->
@@ -23,6 +25,7 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> 
     
     <script src="https://kit.fontawesome.com/9ad606462a.js" crossorigin="anonymous"></script>
@@ -44,22 +47,20 @@
            
         
             <div class="nav-left">
-                <div class="bars-menu" id="bars">
-                    <i class="fab fa-buffer"></i>
-                </div>
+               
                
                 <a href="{{ url('/') }}">
                     <div class="img-logo">
-                        <img class="angogi-profile" src="images/funnel.png" alt="angogi-profile">
+                        <img class="angogi-profile" src="images/logo-keyFunnel-2.png" alt="angogi-profile"> 
                     </div>
                     <h2 class="">KeyFunnel</h2><h6>Marketing & Digital Solutions</h6>
                 </a>
                
                 
             </div>
-            <div class="images-nav">
-                <a href="#"><img class="solutions-logo" src="images/solutions.png" alt="angogi-solutions-image"></a>
-                <a href="/dashboard"><img class="solutions-logo" src="images/home-office.png" alt="angogi-solutions-image"></a>
+            
+            <div class="bars-menu" id="bars">
+                <i class="fab fa-buffer"></i>
             </div>
                 
             <div class="nav-list" id="navList">
@@ -80,19 +81,27 @@
                 <ul>
                     <li class="social">
                         <a href="https://www.google.com">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li class="social">
+                        <a href="https://www.google.com">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="social">
+                        <a href="https://www.google.com">
                             <i class="fab fa-linkedin"></i>
                         </a>
                     </li>
                     <li class="social">
-                        <a href="https://www.google.com">
-                            <i class="fab fa-github"></i>
-                        </a>
+                    <div class="images-nav">
+                    <!-- <a href="#"><img class="solutions-logo" src="images/solutions.png" alt="angogi-solutions-image"></a> -->
+                        <a href="/dashboard"><img class="solutions-logo" src="images/home-office.png" alt="angogi-solutions-image"></a>
+                    </div>
                     </li>
-                    <li class="social">
-                        <a href="https://www.google.com">
-                            <i class="fab fa-facebook-square"></i>
-                        </a>
-                    </li>
+                    
+                   
                 </ul>
                 <i id="arrow-close-menu" class="far fa-arrow-alt-circle-left"></i>
             </div> 
@@ -102,7 +111,7 @@
 
         <main  id="showcase">
             @yield('content')
-            
+            @yield('marketing')
         </main>
         <div class="contact-icons">  
             <a class="icons" href="https://api.whatsapp.com/send?phone=34618210562&text=Hola Francisco, quiero obtener mi prueba gratuita de marketing digital!">

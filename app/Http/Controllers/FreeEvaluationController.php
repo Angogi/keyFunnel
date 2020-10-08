@@ -12,8 +12,9 @@ class FreeEvaluationController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
+        
         $freeEvaluations = FreeEvaluation::all();
         return response()->json($freeEvaluations);
     }
@@ -36,22 +37,27 @@ class FreeEvaluationController extends Controller
      */
     public function store(Request $request)
     {
-
+      
         
-        $form = new FreeEvaluation();
-        $form->name = $request->name;
-        $form->email = $request->email;
-        $form->phone = $request->phone;
+        $form = new FreeEvaluation(); 
+        $form->user_id = $request->user_id;
+        $form->tipoDeNegocio = $request->tipoDeNegocio;
         $form->webSite = $request->webSite;
-        $form->ads = $request->ads;
+        $form->tAds = $request->tAds;
+        $form->traditionalAds = implode(" , ",$request->traditionalAds);  
+        $form->sAds = $request->sAds;  
         $form->socialMediaAds = implode(" , ",$request->socialMediaAds);    
         $form->adsAditional = $request->adsAditional;
         $form->comments = $request->comments;
+        $form->terminosYcondiciones= implode(" , ",$request->terminosYcondiciones); 
         $form->save();
 
         
 
-        return response()->json($form);
+        
+        // return redirect()->route('landing');
+        return response()->json($form); 
+
     }
 
     /**

@@ -118,7 +118,7 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 70%;
+    width: 80%;
 }
 
 .images-ads img{

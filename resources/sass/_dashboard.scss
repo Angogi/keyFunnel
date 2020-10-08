@@ -1,0 +1,43 @@
+.dashboard-nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+// .dashboard-nav form{
+//     display: flex;
+//     flex-direction: row-reverse;
+
+// }
+
+.buttons-dashB-Admin{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logout{
+    display: flex;
+    justify-content: center;
+    margin: 5% 5%;
+    width: 100px;
+    background: #003;
+    border-radius: 50px;
+    box-shadow: 2px 5px 3px rgba(0,0 ,0, 0.5);
+}
+
+
+@media (max-width: 768px){
+
+    // .dashboard-nav{
+    //     flex-direction: column;
+    // }
+
+    // .buttons-dashB-Admin{
+    //     flex-direction: row;
+    // }
+}

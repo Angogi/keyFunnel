@@ -15,14 +15,16 @@ class CreateFreeEvaluationsTable extends Migration
     {
         Schema::create('free_evaluations', function (Blueprint $table) {
             $table->id();
-            $table->char('name', 100);
-            $table->string('email')->unique();
-            $table->string('phone')->unique();
+            $table->bigInteger('user_id')->unsigned(); 
+            $table->string('tipoDeNegocio')->nullable();
             $table->string('webSite')->nullable();
-            $table->string('ads');
+            $table->string('tAds');
+            $table->string('traditionalAds')->nullable();
+            $table->string('sAds');
             $table->string('socialMediaAds')->nullable();
             $table->text('adsAditional')->nullable();
             $table->text('comments')->nullable();
+            $table->string('terminosYcondiciones')->nullable();
             $table->timestamps();
         });
     }

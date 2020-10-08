@@ -14,12 +14,12 @@
             <div class="swiper-wrapper">
             
             <div class="swiper-slide" style="">
-                <div class="swiper-image">
-                    <img src="/images/corporative-site.png" alt="">
+                <div class="swiper-image special-class-image">
+                    <img src="/images/design.png" alt="design-from-digital-pencil">
                 </div> 
                 <div class="swiper-text">
                 
-                <h5>Web Corporativa</h5>
+                <h5>Diseñamos para ti</h5>
                 <p> Sabemos lo imprescindible que es la presencia Online para tu empresa, 
                     esto requiere diseños elegantes y atractativos, pero aún más importante, 
                     necesitas un sitio web que verdaremente venda.
@@ -297,6 +297,12 @@ li{
       margin: 5px 10px;
       
 
+    }
+
+    .special-class-image{
+        margin-top: 0;
+        width: 100%;
+        height: auto;
     }
 
     .swiper-image img{

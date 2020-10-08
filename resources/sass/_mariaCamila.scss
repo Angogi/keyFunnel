@@ -1,0 +1,16 @@
+.gift-button{
+    width: 50px;
+    height: 50px;
+    background: url(/images/gift.png);
+    background-size: cover;
+    transition: ease-in-out all .3s;
+    position: absolute;
+    top: 180px;
+    right: 200px;
+    z-index: 1000;
+}
+
+.close-gift-button{
+    top: -150px;
+}
+

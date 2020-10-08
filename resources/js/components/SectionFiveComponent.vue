@@ -1,6 +1,6 @@
 <template>
     <div class="section-five">  
-        <h2>Hagamoslo Juntos !</h2>  
+        <h2>¡ Hagamoslo Juntos !</h2>  
         <h2>Cuentanos de tu proyecto</h2>  
         
         <form class="form-container" @submit="sendContact" >
@@ -61,7 +61,7 @@ export default {
     data(){
         return{
             name:'',
-            lastname:'',
+            lastname:'', 
             email:'',
             phone:'',
             message:'',

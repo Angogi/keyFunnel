@@ -7,6 +7,10 @@
 @import '_welcome';
 @import '_welcome';
 @import '_login';
+@import '_dashboard';
+@import '_marketing';
+@import '_landing';
+@import '_mariaCamila';
 
 // @import './base.scss';
 
@@ -14,6 +18,10 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
+
+@import '~video.js/dist/video-js.min.css';
+
+// require('!style-loader!css-loader!video.js/dist/video-js.css')
 
 
 

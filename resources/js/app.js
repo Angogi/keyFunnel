@@ -6,7 +6,12 @@
 
 require('./bootstrap');
 require('./_app');
+require('./_appWebinar');
+require('./_marketing');
+require('./_appMariaCamila');
 require('./jquery.waypoints.min');
+
+
 
 
 window.Vue = require('vue');
@@ -20,11 +25,6 @@ Vue.use(IconsPlugin)
 
 import Axios from 'axios'
 Vue.use(Axios)
-
-
-
-
-
 
 
 Vue.component('section-one', require('./components/SectionOneComponent.vue').default);
@@ -45,10 +45,16 @@ Vue.component('landing', require('./components/Lading.vue').default);
 
 Vue.component('section-footer', require('./components/FooterComponent.vue').default);
 Vue.component('evaluation-form', require('./components/EvaluationForm.vue').default);
+Vue.component('form-file-input', require('./components/FormFile.vue').default);
+Vue.component('webinar-register-form', require('./components/WebinarRegisterForm.vue').default);
 
+Vue.component('marketing-product-card', require('./components/MarketingProductCard.vue').default);
 
 
 Vue.component('banner-ads-vo', require('./components/BannerAdsToVirtualOffice.vue').default);
+
+Vue.component('maria-camila', require('./components/MariaCamila.vue').default);
+Vue.component('slider-camila', require('./components/SliderMariaCamila.vue').default);
 // Vue.component('banner-home-page', require('./components/BannerHomePage.vue').default);
 
 

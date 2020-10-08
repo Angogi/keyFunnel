@@ -6,12 +6,12 @@
     <div class="container-showcase" >
         <div class="container-text">
             <!-- <banner-home-page></banner-home-page> TO_DO--> 
-            <h1>Lleva tu negocio al<br><span>Siguiente Nivel</span></h1>
+            <h1>Lleva tu negocio al<br><span>Siguiente Nivel</span></h1> 
             <a href="#services" class="btn-banner">
                 <span></span>
                 <span></span>
                 <span></span>
-                <span></span>
+                <span></span> 
                  ¡ Sabemos como !
             </a>
         </div> 
@@ -21,7 +21,7 @@
 
 <!-- <section class="content-section" id="about">
     <section-two></section-two>
-</section>  -->
+</section>   -->
 
 <section class="content-section"  id="services">
      
@@ -31,9 +31,9 @@
 
 </section>
 
-<section class="content-section" id="services2">
+<!-- <section class="content-section" id="services2">
          <section-four></section-four>  
-</section>
+</section> -->
 <section class="content-section" id="contact">
         
         <div class="hands"></div>

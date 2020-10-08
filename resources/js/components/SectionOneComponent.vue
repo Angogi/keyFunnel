@@ -1,12 +1,12 @@
 <template>
 <div class="banner">
       <vue-particles
-        color="#fe31fe"
+        color="#01f0f9" 
         :particleOpacity="0.7"
         :particlesNumber="120"
         shapeType="circle"
         :particleSize="4"
-        linesColor="#01e5ee"
+        linesColor="#fff"
         :linesWidth="2"
         :lineLinked="true"
         :lineOpacity="0.4"

@@ -2,7 +2,7 @@
 <template>
     <div class="container">
         
-        <h2><strong>Evaluación Gratuita</strong></h2>
+        <h2><strong>Accede a tu evaluación gratuita</strong></h2>
         <div class="progress">
             <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
@@ -16,26 +16,48 @@
                     <input id="email" type="email" class="form-control" v-model="email" placeholder="Tu mejor email !">
                     <h3><strong>Numero movil:</strong></h3>
                     <input id="phone" type="number" class="form-control" v-model="phone">
-                    <input type="button" class="next-form buttons" value="Next"/>
+                    <input type="button" v-on:click="userRegister" class="next-form buttons" value="Next"/>
+                   
                </fieldset>
                <fieldset class="fieldset">
-                    <h3>Gracias por tu confiar tu información personal con nosotros, <strong>{{name}}.</strong></h3>
+                    <h3>Gracias por confiar tu información personal con nosotros, <strong>{{name}}.</strong></h3>
                     <h4>Ahora necesitaremos alguna información sobre tu negocio.</h4>
+
+                    <h3><strong>Tipo de negocio</strong></h3>
+                    <input type="text" class="form-control" v-model="tipoDeNegocio" placeholder="...">
 
                     <h3><strong>Sitio Web</strong></h3>
                     <input type="text" class="form-control" v-model="webSite" placeholder="wwww...">
 
                    
-                        <h3><strong>¿Has hecho publicidad en redes sociales y/o google?</strong></h3>
+                    <h3><strong>¿Has hecho publicidad tradicional?</strong></h3>
                     <div class="adsDoing">
                         
-                        <b-form-radio v-model="ads" name="¿ads?" value="Si"><h4>Si<i class="fas fa-smile-wink"></i></h4></b-form-radio>
-                        <b-form-radio v-model="ads" name="¿ads?" value="No"><h4>No<i class="fas fa-sad-cry"></i></h4></b-form-radio>
-                        <!-- <input class="ads" type="radio"  name="Si" value="Si"  v-model="ads"> <h3>Si <i class="fas fa-smile-wink"></i></h3>
-                        <input class="ads" type="radio"  name="No" value="No"  v-model="ads"> <h3>No <i class="fas fa-sad-cry"></i></h3> -->
+                        <b-form-radio v-model="tAds" name="¿traditionalAds?" value="Si"><h4>Si<i class="fas fa-smile-wink"></i></h4></b-form-radio>
+                        <b-form-radio v-model="tAds" name="¿traditionalAds?" value="No"><h4>No<i class="fas fa-sad-cry"></i></h4></b-form-radio>
+                     
                     </div>
 
-                    <b-form-checkbox-group class="check-box-ads" v-if="ads == 'Si'" v-model="socialMediaAds" name="social media ads">
+                    <b-form-checkbox-group class="check-box-ads" v-if="tAds == 'Si'" v-model=" traditionalAds" name="traditional ads">
+                        <h3><strong>¿Cuales de los siguientes medios has usado?</strong></h3>
+                        <b-form-checkbox value="Revistas" name="traditionalAdss[]"><h4>Revistas</h4></b-form-checkbox>
+                        <b-form-checkbox value="Flyers" name="traditionalAds[]"><h4>Flyers</h4></b-form-checkbox>
+                        <b-form-checkbox value="Carteles" name="traditionalAds[]"><h4>Carteles</h4></b-form-checkbox>
+                        <b-form-checkbox value="Transporte público" name="traditionalAdss[]"><h4>Transporte público</h4></b-form-checkbox>
+                        <b-form-checkbox value="Televisión" name="traditionalAds[]"><h4>Televisión</h4></b-form-checkbox>
+                        <b-form-checkbox value=">Radio" name="traditionalAds[]"><h4>Radio</h4></b-form-checkbox>
+                    </b-form-checkbox-group>
+
+                    <h3><strong>¿Has hecho publicidad en redes sociales y/o google?</strong></h3>
+                    <div class="adsDoing">
+                        
+                        <b-form-radio v-model="sAds" name="¿ads?" value="Si"><h4>Si<i class="fas fa-smile-wink"></i></h4></b-form-radio>
+                        <b-form-radio v-model="sAds" name="¿ads?" value="No"><h4>No<i class="fas fa-sad-cry"></i></h4></b-form-radio>
+                     
+                    </div>
+
+                    <b-form-checkbox-group class="check-box-ads" v-if="sAds == 'Si'" v-model="socialMediaAds" name="social media ads">
+                        <h3><strong>¿Cuales de los siguientes medios has usado?</strong></h3>
                         <b-form-checkbox value="facebook" name="socialMediaAds[]"><h4>facebook</h4></b-form-checkbox>
                         <b-form-checkbox value="instagram" name="socialMediaAds[]"><h4>Instagram</h4></b-form-checkbox>
                         <b-form-checkbox value="google_ads" name="socialMediaAds[]"><h4>Google ads</h4></b-form-checkbox>
@@ -56,17 +78,20 @@
                <fieldset class="fieldset"> 
                     <h4>¿ Es correcta tu información de contacto, {{name}} ?</h4>
                     
-                    <strong> Tu correo electrónico es : {{email}}</strong>
+                    <strong> Tu correo electrónico: {{email}}</strong>
                     <br>
-                    <strong>Tu número de contacto es : {{phone}}</strong>
+                    <strong>Tu número de contacto: {{phone}}</strong>
                     <br> 
-                    <strong> Tu sitio web es : {{webSite}}</strong>
+                    <strong> Tu sitio web: {{webSite}}</strong>
                     <br>
                     <br>
                     <div class="comments">
                         <h5><strong>Algo adicional que nos quieras comentar</strong></h5>
                         <textarea rows="5" cols="50" type="text"  v-model="comments"> </textarea>
                     </div>
+                    <b-form-checkbox-group v-model="terminosYcondiciones" id="checkboxes-4">
+                        <b-form-checkbox value="acepto">He leído y acepto los <a href="">términos y condiciones</a></b-form-checkbox>
+                    </b-form-checkbox-group>
                     <!-- <div class="buttons-container"> -->
                         <input type="button" name="previous" class="previous-form buttons" value="Previous" />
                         <input type="submit" name="submit" class="submit buttons" value="Submit" />
@@ -91,15 +116,22 @@
         },
         data() {
             return {
-
+                
                 name: '',
                 email: '',
                 phone:'',
+
+                
+                user_id :'',
+                tipoDeNegocio:'',
                 webSite:'',
-                ads: '',
+                tAds:'',
+                traditionalAds:[],
+                sAds: '',
                 socialMediaAds:[],
                 adsAditional:'',
                 comments:'',
+                terminosYcondiciones:[],
                 output:''
                 
             };
@@ -107,24 +139,44 @@
         
         },
         methods: {
-            formSubmit(e) {
 
+            userRegister(e){
+                e.preventDefault();
 
-                
+                let currentObj = this;
+
+                axios.post('api/user', {
+                    name: this.name,
+                    email: this.email, 
+                    phone: this.phone,
+
+                    
+                }).then(function(response){
+                    
+                    currentObj.user_id = response.data;
+                 
+
+                })
+            },
+
+            formSubmit(e) { 
 
                 e.preventDefault();
                
                 let currentObj = this;
 
                 axios.post('api/free-evaluations', {
-                    name: this.name,
-                    email: this.email, 
-                    phone: this.phone,
+                   
+                    user_id : this.user_id,
+                    tipoDeNegocio: this.tipoDeNegocio,
                     webSite: this.webSite,
-                    ads: this.ads,
+                    tAds: this.tAds,
+                    traditionalAds: this.traditionalAds,
+                    sAds: this.sAds,
                     socialMediaAds: this.socialMediaAds,
                     adsAditional: this.adsAditional,
                     comments: this.comments,
+                    terminosYcondiciones: this.terminosYcondiciones,
                 })
                 .then(function(response) {
                     currentObj.clearFields();
@@ -140,15 +192,37 @@
                 })
             },
 
+            getCurrentCustomer(e){
+                 e.preventDefault();
+
+                 let currentObj = this;
+
+                customerInfo = {
+                    name: this.name,
+                    email: this.email,
+                    phone: this.phone,
+                }
+
+                 axios.get('api/customer', {
+
+                     params : customerInfo
+                 })
+
+            },
+
              clearFields(){
                 this.name = "";
                 this.email = "";
                 this.phone = "";
+                this.tipoDeNegocio = "";
                 this.webSite = "";
-                this.ads = "";
+                this.tAds = "";
+                this.traditionalAds = "";
+                this.sAds = "";
                 this.socialMediaAds = "";
                 this.adsAditional = "";
                 this.comments = "";
+                this.terminosYcondiciones = "";
             }, 
 
             returnContactView(){
@@ -173,7 +247,16 @@ input::-webkit-inner-spin-button {
 }
 
 .container{
-    margin-top: 120px;
+    margin-top: 50px;
+}
+
+.container h2{
+    text-align: center;
+    background: #003;
+    border-radius: 18px;
+    color:#f9c259;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 .card-body{
@@ -228,9 +311,7 @@ input::-webkit-inner-spin-button {
 
  @media only screen and (max-width: 768px) {
 
-     .container{
-        margin-top: 80px;
-    }
+    
 
     .adsDoing{
    

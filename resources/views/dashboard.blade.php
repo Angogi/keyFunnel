@@ -20,17 +20,53 @@
         </div>
     </div>
 </div> -->
+<div class="dashboard-nav">
+    <div class="">
+        <h2>Subir Video</h2>
+        <form method="POST" action="api/file" accept-charset="UTF-8" enctype="multipart/form-data">
+            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+            <input type="file" name="_video" id="video" >
+            <input type="submit" value="Submit">
+           
+        </form>
+    </div>
+        <!-- <form-file-input></form-file-input> -->
+    <div class="buttons-dashB-Admin">
+        <div class="logout" aria-labelledby="">
+            <a class="" href="{{ route('logout') }}"
+                onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">
+                <h4>{{ __('Logout') }}</h4>
+            </a>
 
-<div class="logout" aria-labelledby="">
-    <a class="" href="{{ route('logout') }}"
-        onclick="event.preventDefault();
-                        document.getElementById('logout-form').submit();">
-        <h4>{{ __('Logout') }}</h4>
-    </a>
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                @csrf
+            </form>
+        </div>
+        <div class="logout" aria-labelledby="">
+            <a class="" href="{{ route('logout') }}"
+                onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">
+                <h4>{{ __('Logout') }}</h4>
+            </a>
 
-    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-        @csrf
-    </form>
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                @csrf
+            </form>
+        </div>
+        <div class="logout" aria-labelledby="">
+            <a class="" href="{{ route('logout') }}"
+                onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">
+                <h4>{{ __('Logout') }}</h4>
+            </a>
+
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                @csrf
+            </form>
+        </div>
+    </div>  
+    
 </div>
 
 <free-evaluations></free-evaluations>

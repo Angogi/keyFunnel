@@ -56,6 +56,8 @@ $(document).ready(function(){
         $("#navList").removeClass('show-nav')
     })
 
+   
+
     
 
     // 
@@ -136,6 +138,11 @@ $(document).ready(function(){
         }
     });
     }); 
+
+
+   
+
+    
 
   
   

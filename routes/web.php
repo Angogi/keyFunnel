@@ -21,19 +21,28 @@ Route::get('/register', function(){
     return view('register');
 });
 
+Route::get('/marketing', function () {
+    return view('marketing');
+});
 Route::get('/landing', function () {
     return view('landing');
+});
+Route::get('/maria-camila', function () {
+    return view('mariaCamila');
 });
 
 Route::get('/evaluation-form', 'FreeEvaluationController@create')->name('evaluationForm');
 
 Auth::routes();
 
-Route::get('/dashboard', 'HomeController@index')->name('home');
+Route::get('/dashboard', 'HomeController@index')->name('dashboard'); 
 
 // Route::get('/hablamos', function(){
 //     return view('hablamos');
 // });
+
+
+
 
 
 

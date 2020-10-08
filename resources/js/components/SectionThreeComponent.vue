@@ -1,7 +1,6 @@
 <template>
     <div class="container-section-3">
-        
-        
+          
               
         <div class="card-S3">
             <div class="imgBox">
@@ -156,9 +155,9 @@ export default {
     color: #003;
     background: #ffff;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bolder;
-    border-radius: 15px;
+    border-radius: 15px; 
 }
 
 .container-section-3 .card-S3 .textBox::before{
