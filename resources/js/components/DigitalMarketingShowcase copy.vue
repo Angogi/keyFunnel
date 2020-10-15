@@ -1,6 +1,6 @@
 <template>
     <div class="digital-marketing-showcase"  id="digital-marketing-showcase">
-        <div class="check-list-dm">
+        <!-- <div class="check-list-dm">
             <ul>
                 <li><img src="/images/check-list.png" alt="chekc list">Creamos aununcios dinamicos con impacto real.</li>
                 <li><img src="/images/check-list.png" alt="chekc list">Resultados medibles, gestionables e inteligentes.</li>
@@ -9,7 +9,7 @@
                 <li><img src="/images/check-list.png" alt="chekc list">Contigo de inicio a final en tu proceso de Digital Marketing.</li>
                 <li><img src="/images/free.png" alt="chekc list">Obtén hoy mismo una prueba gratuita.</li>
             </ul>
-        </div>
+        </div> -->
         <div class="swiper-container-DM">
             <div class="swiper-wrapper">
             
@@ -197,8 +197,8 @@ li{
 
 .swiper-container-DM {
     display: flex;
-    width: 300px;
-    height: 80vh;
+    width: 100%;
+    /* height: 80vh; */
     z-index: 100; 
 }
 

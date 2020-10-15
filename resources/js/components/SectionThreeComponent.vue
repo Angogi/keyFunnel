@@ -8,7 +8,7 @@
                 <h3>Digital Marketing</h3>
             </div>
             <div class="textBox">
-                <p>Anunciate con confianza. <br>
+                <p>Anunciate con confianza.<br>
                     Estudiamos y diseñamos estrategias de 
                     markerting digital para llegar a tu cliente ideal. 
                 </p>
@@ -57,10 +57,10 @@ export default {
 
 .container-section-3{
     position: relative;
-    width: 1050px;
+    width: 100%;
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     transition: 0.5s;
     transform: skewY(-10deg);
     
@@ -190,6 +190,7 @@ export default {
 .container-section-3 .card-S3:nth-child(3){
     z-index: 1;
 }
+
 
 
 @media (max-width: 768px){

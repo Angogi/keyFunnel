@@ -1,6 +1,6 @@
 <template>
     <div class="webdesign-showcase"  id="webdesign-showcase">
-        <div class="check-list-wd">
+        <!-- <div class="check-list-wd">
             <ul>
                 <li><img src="/images/check-list.png" alt="chekc list">Diseños elegantes y pensados para tu sector.</li>
                 <li><img src="/images/check-list.png" alt="chekc list">Responsive, adapables a caulquier dispositivo.</li>
@@ -9,7 +9,7 @@
                 <li><img src="/images/check-list.png" alt="chekc list">Diseños Mobile First.</li>
                 <li><img src="/images/check-list.png" alt="chekc list">Hosting y dominio incluidos.</li>
             </ul>
-        </div>
+        </div> -->
         <div class="swiper-container-section3">
             <div class="swiper-wrapper">
             
@@ -152,36 +152,19 @@
             </div>
         <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
+
+             <div class="close-wd-showcse" id="close-wd-showcase">
+
+                <img src="/images/close-button.png" alt="">
+                
+              </div>
         </div>
-        <div class="close-wd-showcse" id="close-wd-showcase">
-            <img src="/images/close-button.png" alt="">
-        </div>
+       
   </div> 
   
 </template>
 
-<script>
-export default {
-  mounted() {
-      var swiper = new Swiper('.swiper-container-section3', {
-      effect: 'cube',
-      grabCursor: true,
-      cubeEffect: {
-        shadow: true,
-        slideShadows: true,
-        shadowOffset: 20,
-        shadowScale: 0.94,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-      },
-    });   
-  }, 
- 
-  
-}
 
-</script>
 
 <style scoped>
 p{
@@ -200,7 +183,7 @@ li{
  .webdesign-showcase{
     display: flex;
     flex-direction: row;
-    background:linear-gradient(to right, #000d5b, #01e5ee);  
+    /* background:linear-gradient(to right, #000d5b, #01e5ee);   */
     z-index: 50;  
     transition: all .7s;
     position: fixed;
@@ -217,43 +200,31 @@ li{
     top: 0;
     width: 100%;
     height: 100%;
+    overflow: overlay;
     
     
 }
 
-.webdesign-showcase .check-list-wd{
-    border: 2px solid #01e5ee;
-    border-right-style:none ;
-    box-shadow:-8px 7px 5px 0px #003;
-    border-radius: 20px 0px 0px 20px;
-    color:#fff;
+.close-wd-showcse{
+    align-items: center;
     display: flex;
-    flex-direction: column;
-    padding: 20px;
-    height: 80vh;
-    width: 25%;
-    font-size: 22px;
-    
+
 }
 
-.webdesign-showcase .check-list-wd img{
-    width: 20px;
-    margin-right: 10px;
-}
 
 
 .close-wd-showcse img{
     width: 2.7rem;
-    position: absolute;
-    top: 60px;
-    right: 10px;
+    
+    top: 50vh;
+    right: 1%;
     transition: all .3s;
     background: #003;
     border-radius: 50px;
     padding: 2px;
     box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
-
 }
+
 .close-wd-showcse img:hover{
     width: 70px;
     
@@ -262,10 +233,10 @@ li{
 
 
 .swiper-container-section3 {
-        display: flex;
-        width: 300px;
+       display: flex;
+        width: 100%;
         height: 80vh;
-        z-index: 100;
+        z-index: 100; 
         
               
       
@@ -273,21 +244,31 @@ li{
 
    
     
+.swiper-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+    width: 100vw;
+}
 
-    .swiper-slide {
-      display:grid;
-      grid-template-columns: 300px;
-      grid-template-rows: 32vh 32vh 10vh;
-      grid-template-areas: "image" "text" "stats";
-
-      border-radius: 18px;
-      background:white;
-      box-shadow: -5px 5px 15px rgba(0,0,0,0.9);
-      text-align: center;
-
-      background-position: center;
-      background-size: cover;
+.swiper-slide {
+    display:grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 200px 225px 100px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 18px;
+    background:white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
     }
+    
+
 
     .swiper-image{
       grid-area: image;
@@ -307,8 +288,8 @@ li{
 
     .swiper-image img{
         margin-top: 15px;
-        width: 70%;
-        height: 90%;
+        width: 50%;
+        height: 70%;
     }
     .swiper-text{
         grid-area: text;
@@ -378,12 +359,21 @@ li{
         display: none;
     }
 
-    .close-wd-showcse img{
-        background: transparent;
+      .show-wd-popup .close-wd-showcse img{
+        position: fixed;
+        z-index: 10000;
         top: unset;
         bottom: 1%;
         left: 1%;
 
+    }
+
+    .swiper-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        position: relative;
+        justify-content: space-around;
     }
 
 

@@ -5,14 +5,14 @@
 
     <div class="container-showcase" >
         <div class="container-text">
-            <!-- <banner-home-page></banner-home-page> TO_DO--> 
+            <!-- <banner-home-page></banner-home-page> TO_DO  -->
             <h1>Lleva tu negocio al<br><span>Siguiente Nivel</span></h1> 
             <a href="#services" class="btn-banner">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span> 
-                 ¡ Sabemos como !
+                 ¡ Sabemos cómo !
             </a>
         </div> 
         

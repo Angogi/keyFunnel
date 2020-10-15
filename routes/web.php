@@ -27,6 +27,9 @@ Route::get('/marketing', function () {
 Route::get('/landing', function () {
     return view('landing');
 });
+Route::get('/landing-page', function () {
+    return view('landingPage');
+});
 Route::get('/maria-camila', function () {
     return view('mariaCamila');
 });

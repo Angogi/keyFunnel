@@ -27,6 +27,8 @@ import Axios from 'axios'
 Vue.use(Axios)
 
 
+
+
 Vue.component('section-one', require('./components/SectionOneComponent.vue').default);
 Vue.component('section-two', require('./components/SectionTwoComponent.vue').default);
 Vue.component('section-three', require('./components/SectionThreeComponent.vue').default);
@@ -55,7 +57,10 @@ Vue.component('banner-ads-vo', require('./components/BannerAdsToVirtualOffice.vu
 
 Vue.component('maria-camila', require('./components/MariaCamila.vue').default);
 Vue.component('slider-camila', require('./components/SliderMariaCamila.vue').default);
+Vue.component('landing-page', require('./components/LandingPage.vue').default);
 // Vue.component('banner-home-page', require('./components/BannerHomePage.vue').default);
+
+
 
 
 

@@ -4,7 +4,7 @@
 <div class="container-landing">
     <div class="webinar-form" id="webinar-form">
         <div class="banner-webinar-form">
-            <p>¿Sabías que puedes usar algo tan habitual como el WhatsApp 
+            <p>¿Sabías que puedes usar algo tan habitual como el WhatsApp  
                 para recibir cada día peticiones de personas que 
                 soliciten tus productos y/o servicios?  
             </p>

@@ -82,7 +82,7 @@ body{
     color: #fff;
     padding: 0 3rem ;
     position: fixed;
-    background: #003;
+    background: #00003380;
     box-shadow: 10px 1px 5px #01e5ee;
     width: 100%;
     top: 0;
@@ -110,6 +110,11 @@ body{
     & .img-logo .angogi-profile{
         width: 45px;
     }
+
+    & .nav-left h6{
+        font-size: initial;
+    }
+    
 
     // & .images-nav .solutions-logo{
     //     width: 45px;
@@ -175,6 +180,13 @@ body{
 
 }
 
+.nav-left .logo_contentText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: max-content;
+}
+
 .nav-left h2{
     font-size: 2.3rem;
     color: #6be3e4;
@@ -182,10 +194,11 @@ body{
 }
 
 .nav-left h6{
-    font-size: xx-large;
-    padding-top: 25px;
+    font-size: x-large;
+    padding-top: 44px;
     color: #ffff;
-    left: 32%;
+    right:  85px;
+    position: relative;
 }
 
 .img-logo img{
@@ -238,7 +251,7 @@ body{
     position: fixed;
     bottom: -1.5%;
     right: 1%;
-    width: 150px;
+    width: 200px;
     height: 75px;
     z-index: 1000;
     padding:10px 10px 20px;;
@@ -255,7 +268,7 @@ body{
     transition: all 0.5s;
 
     & i{
-        font-size: 45px;
+        font-size: 30px;
     }
 }
 
@@ -314,11 +327,12 @@ body{
 
     
 
+    
+
     .nav-left h6{
         font-size: larger;
-        padding-top: 40px;
-        color: #ffff;
-        position: absolute;
+        right: 28%;  
+        
     }
 
     .navScroll{
@@ -330,8 +344,9 @@ body{
 
     .bars-menu{
         display: inline-block;
-        font-size: 30px;
-        margin-right: 16px;
+        font-size: xx-large;
+        left: -60px;
+        position: relative;
     }
 
     .nav-list{
@@ -339,7 +354,7 @@ body{
         flex-direction: column;
         top: 50px;
         left: -150px;
-        background:  linear-gradient(to right, #000d5b, #01e5ee);
+        background: linear-gradient(to right, #000d5be0, #01e5eebf);
         border-radius: 0 0 25px;
         margin-top: 0 !important;
         transition: all .5s;
@@ -370,6 +385,9 @@ body{
     .contact-icons .icons{
         
         margin: 7px 14px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
        
 
         & i{
